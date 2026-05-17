@@ -1,0 +1,1 @@
+{"addStyles":["plugins/@Oaz__plotly/plotly-renderer.css"],"addScripts":["plugins/@Oaz__plotly/plotly-3.1.0.min.js","plugins/@Oaz__plotly/plotly-renderer.js","plugins/@Oaz__plotly/plugin.js"],"onSlideChange":"window.slidesk.plotlyChange();","files":["plotly-renderer.css","plotly-3.1.0.min.js","plotly-renderer.js","plugin.js"],"tags":["plotly","graph","chart"]}

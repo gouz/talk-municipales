@@ -1,0 +1,71 @@
+.histoire {
+    background-image: url(./backgrounds/histoire.webp);
+
+    &::before {
+        display: none;
+    }
+}
+
+.roles {
+    background-image: url(./backgrounds/roles.webp);
+
+    &::before {
+        display: none;
+    }
+}
+
+.conseil {
+    background-image: url(./backgrounds/conseil.webp);
+
+    &::before {
+        display: none;
+    }
+}
+
+.depot {
+    background-image: url(./backgrounds/depot.webp);
+
+    &::before {
+        display: none;
+    }
+}
+
+.elections {
+    background-image: url(./backgrounds/elections.webp);
+
+    &::before {
+        display: none;
+    }
+}
+
+.propagande {
+    background-image: url(./backgrounds/propagande.webp);
+
+    &::before {
+        display: none;
+    }
+}
+
+.resultat {
+    background-image: url(./backgrounds/resultat.webp);
+
+    &::before {
+        display: none;
+    }
+}
+
+.tractage {
+    background-image: url(./backgrounds/tractage.webp);
+
+    &::before {
+        display: none;
+    }
+}
+
+.reunion-publique {
+    background-image: url(./backgrounds/reunion-publique.webp);
+
+    &::before {
+        display: none;
+    }
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Michroma&display=swap");
+
+:root {
+    --sd-heading1-size: 8.5vw;
+    --sd-heading1-line-height: 1;
+    --sd-heading2-size: 5vw;
+    --sd-heading2-line-height: 1;
+    --sd-text-size: 2.2vw;
+    --sd-text-line-height: 1.2;
+    --sd-caption-font-size: 1vw;
+    --sd-caption-line-height: 1;
+
+    --sd-background-color: #fafafa;
+    --sd-heading-color: rgba(36, 36, 36, 0.97);
+    --sd-text-color: rgba(36, 36, 36, 0.87);
+    --sd-primary-color: rgb(37, 186, 146);
+    --sd-caption-color: rgba(255, 255, 255, 0.7);
+    --sd-caption-bgcolor: rgba(36, 36, 36, 0.7);
+
+    /* SpeakerView */
+    --sd-sv-timer-size: 80px;
+    --sd-sv-text-size: 40px;
+    --sd-sv-text-line-height: 1.2;
+    --sd-sv-background-color: #242424;
+    --sd-sv-text-color: rgba(255, 255, 255, 0.87);
+}
+
+p,
+ul {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2 {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+pre {
+    display: block;
+    width: 100%;
+
+    .plotly-container {
+        width: 100%;
+    }
+
+    .js-plotly-plot .plotly,
+    .js-plotly-plot .plotly div {
+        margin: 0 auto;
+    }
+}
+
+.sd-slide {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./backgrounds/fond.webp);
+    justify-content: end;
+    padding-bottom: 15vh;
+
+    &::before {
+        position: absolute;
+        inset: 0;
+        background: #ffffff;
+        opacity: 0.8;
+        content: "";
+        z-index: -1;
+    }
+}
