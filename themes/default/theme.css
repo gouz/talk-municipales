@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 
 :root {
     --sd-heading1-size: 8.5vw;
@@ -25,15 +25,10 @@
     --sd-sv-text-color: rgba(255, 255, 255, 0.87);
 }
 
+h1,
+h2,
 p,
 ul {
-    font-family: "Michroma", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h1,
-h2 {
     font-family: "Architects Daughter", cursive;
     font-weight: 400;
     font-style: normal;
